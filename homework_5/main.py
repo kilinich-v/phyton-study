@@ -1,4 +1,5 @@
 import calculator
+import utilities
 
 num1 = float(input("Введіть перше число: "))
 num2 = float(input("Введіть друге число: "))
@@ -16,3 +17,7 @@ else:
     result = "Невідома операція"
 
 print(f"Результат: {result}")
+
+numbers = [1, 2, 3, 4, 5]
+print(utilities.calculate_average(numbers))
+print(utilities.find_max(numbers))
